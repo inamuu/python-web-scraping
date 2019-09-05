@@ -22,5 +22,5 @@ class GetProxyList:
                 if port is not None:
                     print('port: %s' % format(port.group(0)))
 
-proxy = GetProxyList()
-proxy.parse_sslproxies()
+#proxy = GetProxyList()
+#proxy.parse_sslproxies()
