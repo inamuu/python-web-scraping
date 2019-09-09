@@ -13,4 +13,7 @@ def get_proxy_list():
     proxy = getprl.GetProxyList()
     proxy.parse_sslproxies()
 
+def main():
+    subcommand()
+
 if __name__ == '__main__': main()
