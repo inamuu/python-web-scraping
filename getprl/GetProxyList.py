@@ -19,3 +19,4 @@ class GetProxyList:
                 ipaddr = rows.find('td').string
                 port = rows.td.next_sibling.string
                 proxylist.append([ipaddr, port])
+            return proxylist
