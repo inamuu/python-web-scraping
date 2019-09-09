@@ -2,3 +2,4 @@ site-packages
 .env
 logs
 __pycache__/
+.vscode
