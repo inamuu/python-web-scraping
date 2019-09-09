@@ -19,10 +19,15 @@ def get_proxy():
     if len(proxylist) == 0:
         print('Empty list')
         return
-    else:
-        checkproxy = chkconpr.CheckConnectProxy()
-        checkproxy.check_connect(proxylist)
 
+    for list in proxylist:
+        print(list)
+        checkproxy = chkconpr.CheckConnectProxy()
+        checkproxy.check_connect(list)
+
+        #checkproxy = chkconpr.CheckConnectProxy()
+        #checkproxy.proxy_connect(list)
+        #return
 
 def main():
     subcommand()
